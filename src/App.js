@@ -19,6 +19,7 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
+				<Route path="/CPE499_Final_react" element={<Homepage />} />
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="*" element={<Notfound />} />

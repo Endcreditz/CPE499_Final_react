@@ -28,7 +28,7 @@
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
-	"homepage": "https://Endcreditz.github.io/CPE499-Final/",
+	"homepage": "http://Endcreditz.github.io/CPE499_Final_react/",
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
