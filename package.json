@@ -18,6 +18,7 @@
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^13.5.0",
+		"gh-pages": "^6.1.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-ga4": "^2.1.0",
@@ -27,7 +28,10 @@
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
+	"homepage": "https://Endcreditz.github.io/CPE499-Final_Work/",
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
@@ -54,5 +58,8 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
+	},
+	"devDependencies": {
+		"git-pages": "^0.8.1"
 	}
 }

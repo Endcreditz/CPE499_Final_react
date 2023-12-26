@@ -13,7 +13,7 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-
+import Profilepic from "../components/profile.png";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -101,7 +101,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="profile.png"
+											src={Profilepic}
 											alt="about"
 											className="homepage-image"
 										/>
